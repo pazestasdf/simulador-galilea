@@ -1,0 +1,503 @@
+@import url('http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext');
+
+*::selection {
+  background-color: #b90103;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato' !important;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon-chevron{
+  margin-left: 3px;
+  height: 9px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(254deg) brightness(106%) contrast(102%);
+}
+
+.simular h2 {
+  color: white;
+  text-transform: initial;
+  font-size: 30px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 180px;
+}
+
+.simular label {
+  display: block !important;
+  text-align: left;
+}
+
+label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.precio {
+  background-image: url(/src/assets/images/backcreditos/fondo-simula-precio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: white;
+  border-radius: 15px;
+}
+
+.dividendo {
+  background-image: url(/src/assets/images/backcreditos/fondo-simula-dividendo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+
+.ingresos {
+  background-image: url(/src/assets/images/backcreditos/fondo-simula-renta.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+
+.btn-galilea {
+  background-color: #dd0f1c;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.btn-galilea:hover {
+  background-color: #e71422;
+  color: white;
+}
+
+.img-small{
+  width: 100px;
+  height: 100px;
+}
+
+.titulo-ciudad{
+  text-align: center;
+}
+
+select {
+  font-size: 75% !important;
+  max-width: 100%;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://vao.cl/G20202/wp-content/themes/megatron/assets/images/arrow-down.png);
+  background-repeat: no-repeat;
+  background-position: 98%;
+  background-position: calc(100% - 15px);
+}
+
+input {
+  font-size: 75% !important;
+}
+
+.img-galilea {
+  color:white;
+  width: 234px;
+  height: 334px;
+  position: relative;
+  z-index: -2;
+  display:inline-block;
+}
+
+.inset-color {
+  width: 234px;
+  height: 334px;
+  color:white;
+  box-shadow: inset 0px -330px 10px -15px rgba(0,0,0,0.01),
+              inset 0px -230px 10px -15px rgba(0,0,0,0.05),
+              inset 0px -140px 10px -30px rgba(0,0,0,0.5);
+
+}
+
+.btnSimular{
+  font-family: 'Lato';
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  min-width: 170px;
+  padding: 16px 20px;
+  background-color: #b90103;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.btnSimular:hover{
+  background-color: #000;
+}
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+table, tr, td {
+  border: none !important;
+}
+
+th { 
+  background: #fff; 
+  color: #dd0f1c; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  
+  text-align: left; 
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+table {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: .35em;
+  color: rgb(163, 163, 163);
+}
+
+table th,
+table td {
+  padding: 1.025em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+
+table tr {
+  letter-spacing: .1em;
+  border-bottom: 1px solid rgb(233, 233, 233) !important; 
+}
+
+
+@media screen and (max-width: 992px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  
+}
+
+.footer{
+  background-color: #dd0f1c;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #ffffff;
+}
+
+.img-footer{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-list{
+  line-height: 35px !important;
+  font-size: 16px !important;
+  text-transform: initial !important;
+  color: #ffffff !important;
+  transition: all 0.2s;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  list-style: none !important;
+  letter-spacing: 0.05em;
+  text-decoration: none;  
+  font-family: 'Lato';
+
+}
+
+.copyright{
+  padding-top: 50px;
+  font-family: 'Lato';
+
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+.pre-footer{
+  padding: 65px 0 45px 0;
+}
+
+.proyects{
+  text-align: center;
+  color: #666;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-weight: 400;
+  font-family: 'Lato';
+}
+
+.proyects-list{
+  font-size: 17px !important;
+  letter-spacing: 0.05em;
+  text-transform: initial !important;
+  color: #808080 !important;
+  font-family: 'Lato';
+  outline: none;
+  list-style: none !important;
+  text-decoration: none;  
+  line-height: 40px;
+
+}
+
+.proyects-list:hover{
+  color:#e13029 !important;
+}
+
+li{
+  text-align: -webkit-match-parent;
+}
+
+.proyectos{
+  padding-top: 45px;
+}
+
+.financiamiento {
+  font-size: 1.3rem;
+}
+
+p{
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  padding: 0;
+  line-height: 2.2;
+  letter-spacing: 0.05em;
+}
+p .asterisk{
+  color: red;
+}
+
+.financiamiento .advertencia{
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #444;
+}
+
+.headimg{
+  background-image: url(/src/assets/images/header/Banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 10rem 0;
+
+}
+
+.page-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text-img{
+  position: absolute;
+  bottom: 0%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.contimg{
+  position: relative;
+  display: inline-block;
+}
+
+.text-img-city{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.more{
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.plus{
+  font-size: 15px !important;
+}
+
+.composite{
+  filter: invert(82%) sepia(95%) saturate(2%) hue-rotate(348deg) brightness(106%) contrast(100%) !important;
+  height: 15px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.composite-red{
+  filter: invert(15%) sepia(50%) saturate(6893%) hue-rotate(355deg) brightness(108%) contrast(119%);
+  height: 15px;
+  padding-right: 10px;
+}
+
+.advertencia {
+  color: rgb(163, 163, 163);
+}
+.msg-limit{
+  font-size: 1.3rem;
+  text-align:center;
+  background-color: #e13029;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+.adv {
+  width: 45px;
+  padding-right: 0px;
+  margin-right: 15px;
+}
+
+.aprobacion {
+
+  background-color: #e13029;
+  color: white;
+  text-align:center;
+  margin-top:-15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.aprobacion h4{
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .aprobacion{
+    margin-top:-10px;
+  padding-top: 10px;
+  padding-bottom: 2.5px;
+  }
+  .aprobacion h4{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .item-list{
+    text-align:center !important;
+  }
+  .copyright{
+    text-align:center !important;
+  }
+  .headimg{
+    text-align: center;
+    background-position: right;
+  }
+
+}
